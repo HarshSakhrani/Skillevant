@@ -16,7 +16,11 @@ model = joblib.load("/home/harsh/Skillevant_VirtualEnv/Codebase/Model18.sav")
 #Importing PreTrained BERT Sentence Transformer
 transformerModel=SentenceTransformer('bert-base-nli-mean-tokens')
 
+<<<<<<< HEAD
 graph = Graph("bolt://localhost:7687", auth=("neo4j", "pwd"))  #Kindly Enter your own Auth
+=======
+graph = Graph("bolt://localhost:7687", auth=("neo4j", "Cnbctv18@"))
+>>>>>>> 240a3b2e7cd33ecb1cbe53c8ad24029e56fe3a5d
 
 
 def getTempFont(page, start, end):   #Extracting all fonts that exist the pdf
